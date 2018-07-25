@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MeiTuan(MVP)</string>
+    <string name="username">账号</string>
+    <string name="hint_username">请输入用户名</string>
+    <string name="pwd">密码</string>
+    <string name="hint_pwd">请输入密码</string>
+    <string name="btn_login">登录</string>
+    <string name="tv_login_disanfang">使用其他方式登入</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="xiaoliang">月售194笔</string>
+    <string name="peisong">起送￥10|配送￥0|人均20</string>
+    <string name="login_zhuce">登录/注册</string>
+    <string name="message_loaction">  理工短号6112344(原大学生粗粮坊)</string>
+    <string name="search">搜索</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="100dp">
+        <ImageView
+            android:id="@+id/item_recy2_iv_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_launcher_background"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/item_recy2_taocan"
+                android:layout_width="match_parent"
+                android:padding="2dp"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:text="套餐8：海苔鸡肉卷+辣翅+可乐"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/item_recy2_xiaoliang"
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="2dp"
+                android:text="月售 1"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/item_recy2_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/holo_red_light"
+                    android:padding="2dp"
+                    android:text="￥20.8"/>
+                <RelativeLayout
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/item_recy2_iv_jian"
+                        android:layout_width="30dp"
+                        android:visibility="invisible"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/jian"/>
+                    <TextView
+                        android:layout_toRightOf="@id/item_recy2_iv_jian"
+                        android:id="@+id/item_recy2_nums"
+                        android:visibility="invisible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:layout_centerInParent="true"
+                        android:textStyle="bold"
+                        android:textColor="@color/font_color_back"
+                        android:padding="2dp"
+                        android:text="1"/>
+                    <ImageView
+                        android:layout_toRightOf="@id/item_recy2_nums"
+                        android:id="@+id/item_recy2_iv_jia"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/add"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
